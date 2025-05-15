@@ -14,8 +14,8 @@ function Game() {
     }
     return (
       <>
-       <div className="container">
-        <div className='head'>
+       <div className="header-area">
+        <div className='.second-header'>
           <label htmlFor='term'>
             Guess the number between 1 to 10
           </label>
@@ -24,7 +24,7 @@ function Game() {
         id="term"
         type='text'
         name='term'
-        onChange={handleChange}
+        onChange={handleChange}className='input-text'
         />
         <Result secretNum ={secretNum } term={term}/>
     </div>

@@ -1,3 +1,5 @@
+
+
 /* body{
     background-color: gray;
     align-items: center;
@@ -5,32 +7,41 @@
     padding: 15%;
   }
    */
-  .container{
+  .header-area{
     padding: 10px;
-    border: 2px solid whitesmoke;
+    border: 2px solid rgb(238, 198, 198);
     width: 500px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(11, 11, 11);
+    margin-top: 250px;
   
   }
-  .head{
+  .second-header{
    font-weight: 600;
    font-size: 20px;
    margin-bottom: 20px;
+   
   
   }
-  input{
+  .input-text{
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    width: 400px;
   }
-  input:hover{
-    background-color: burlywood;
+  .input-text:hover{
+    background-color: rgb(237, 229, 217);
   }
-  input:focus{
+  .input-text:focus{
     border: 0px;
     background-color: beige;
   
+  }
+  .texter{
+    background-color: rgb(246, 231, 212);
+    box-shadow: 10px;
+    padding: 20px;
+    margin-top: 50PX;
   }
